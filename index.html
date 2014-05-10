@@ -1,328 +1,52 @@
 <!DOCTYPE html>
-<!--[if IE 7]><html class="ie ie7" lang="en-US"><![endif]-->
-<!--[if IE 8]><html class="ie ie8" lang="en-US"><![endif]-->
-<!--[if !(IE 7) | !(IE 8)  ]><!--><html lang="en-US"><!--<![endif]-->
+<html lang="en-US">
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>xicon</title>
 	<!-- Styles -->
 	<link rel="stylesheet" href="assets/css/normalize.css" />
-	<!-- <link rel="stylesheet" href="assets/css/fonts.css"/> -->
 	<link rel="stylesheet" href="xcommon.css">
+	<link rel="stylesheet" href="Cikonss.css">
 	<link rel="stylesheet" href="xicon.css" />
 	<link rel="stylesheet" href="assets/css/demo.css"/>
-
-	<link rel="stylesheet" href="highlight/styles/dark.css">
 </head>
 
 <body>
-	<header>
-		xicon
-	</header>
 
-	<div id="preview" class="wrapper section-preview">
+<header class="wrapper">
+	xicon
+</header><!-- header -->
+
+<div id="preview" class="wrapper section-preview">
 	<ul>
-		<li>				
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-home"></span></span>
-				<code class="icon-class">.icon-home</code>
-			</div>
-			<div class="css-code">
-				<pre>
-					<code class="css">
-.icon-home {
-	position: absolute;
-	top: 0;
-	left: .125em;
-	width: .25em;
-	height: .5em;
-	background-color: rgb(102, 102, 102); /* #666 */
-}
-.icon-home:before,
-.icon-home:after {
-	content: "";
-	position: absolute;
-	border-style: solid;
-}
-.icon-home:before {
-	top: .5em;
-	left: 0;
-	width: .25em;
-	height: .3125em;
-	border-width: .1875em .25em 0 .25em;
-	border-color: rgb(102, 102, 102); /* #666 */
-}
-.icon-home:after {
-	top: -.5em;
-	left: -.125em;
-	width: 0;
-	height: 0;
-	border-width: .5em;
-	border-color: transparent transparent rgb(102, 102, 102) transparent; /* #666 */
-}					
-			</code>
-				</pre>
-			</div>
+		<li>
+			<span class="xicon xicon-mid"><span class="xicon-arrowRight"></span></span>
+			<code>.xicon-arrowRight</code>
 		</li>
 		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-arrowRight"></span></span>
-				<code class="icon-class">.icon-arrowRight</code>
-			</div>
+			<span class="xicon xicon-mid"><span class="xicon-arrowLeft"></span></span>
+			<code>.xicon-arrowLeft</code>
 		</li>
 		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-arrowLeft"></span></span>
-				<code class="icon-class">.icon-arrowLeft</code>
-			</div>
+			<span class="xicon xicon-mid"><span class="xicon-arrowUp"></span></span>
+			<code>.xicon-arrowUp</code>
 		</li>
 		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-arrowDown"></span></span>
-				<code class="icon-class">.icon-arrowDown</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-arrowUp"></span></span>
-				<code class="icon-class">.icon-arrowUp</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-comment"></span></span>
-				<code class="icon-class">.icon-comment</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-comment-text"></span></span>
-				<code class="icon-class">.icon-comment-text</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-mail"></span></span>
-				<code class="icon-class">.icon-mail</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-calendar"></span></span>
-				<code class="icon-class">.icon-calendar</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-plus"></span></span>
-				<code class="icon-class">.icon-plus</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-minus"></span></span>
-				<code class="icon-class">.icon-minus</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-file"></span></span>
-				<code class="icon-class">.icon-file</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-folder"></span></span>
-				<code class="icon-class">.icon-folder</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-tag"></span></span>
-				<code class="icon-class">.icon-tag</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-desktop"></span></span>
-				<code class="icon-class">.icon-desktop</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-tablet"></span></span>
-				<code class="icon-class">.icon-tablet</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-phone"></span></span>
-				<code class="icon-class">.icon-phone</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-menu"></span></span>
-				<code class="icon-class">.icon-menu</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-download"></span></span>
-				<code class="icon-class">.icon-download</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-upload"></span></span>
-				<code class="icon-class">.icon-upload</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-tpl-full"></span></span>
-				<code class="icon-class">.icon-tpl-full</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-tpl-side-r"></span></span>
-				<code class="icon-class">.icon-tpl-side-r</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-tpl-side-l"></span></span>
-				<code class="icon-class">.icon-tpl-side-l</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-list-view"></span></span>
-				<code class="icon-class">.icon-list-view</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-grid-view"></span></span>
-				<code class="icon-class">.icon-grid-view</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-camera"></span></span>
-				<code class="icon-class">.icon-camera</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-image"></span></span>
-				<code class="icon-class">.icon-image</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-play"></span></span>
-				<code class="icon-class">.icon-play</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-stop"></span></span>
-				<code class="icon-class">.icon-stop</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-pause"></span></span>
-				<code class="icon-class">.icon-pause</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-forward"></span></span>
-				<code class="icon-class">.icon-forward</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-next"></span></span>
-				<code class="icon-class">.icon-next</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-rewind"></span></span>
-				<code class="icon-class">.icon-rewind</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-prev"></span></span>
-				<code class="icon-class">.icon-prev</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-stats"></span></span>
-				<code class="icon-class">.icon-stats</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-battery-empty"></span></span>
-				<code class="icon-class">.icon-battery-empty</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-battery-1_4"></span></span>
-				<code class="icon-class">.icon-battery-1_4</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-battery-half"></span></span>
-				<code class="icon-class">.icon-battery-half</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-battery-3_4"></span></span>
-				<code class="icon-class">.icon-battery-3_4</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-battery-full"></span></span>
-				<code class="icon-class">.icon-battery-full</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-sound-mute"></span></span>
-				<code class="icon-class">.icon-sound-mute</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-sound-normal"></span></span>
-				<code class="icon-class">.icon-sound-normal</code>
-			</div>
-		</li>
-		<li>
-			<div class="item">
-				<span class="icon icon-small"><span class="icon-sound-loud"></span></span>
-				<code class="icon-class">.icon-sound-loud</code>
-			</div>
+			<span class="xicon xicon-mid"><span class="xicon-arrowDown"></span></span>
+			<code>.xicon-arrowDown</code>
 		</li>
 	</ul>
-	</div><!-- #preview.section.section-preview -->
+</div><!-- #preview.section.section-preview -->
 
-
-<script src="highlight/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<div id="preview" class="wrapper section-preview">
+	<ul>
+		<li>
+			<span class="xicon xicon-samll"><span class="xicon-arrowRight"></span></span>
+			<code>.xicon-arrowRight</code>
+		</li>
+	</ul>
+</div><!-- #preview.section.section-preview -->
 
 </body>
 </html>
