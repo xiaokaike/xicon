@@ -1,0 +1,46 @@
+/* Generals */
+.icon {
+	/* don't change width and height in order to change the size of the icon,
+	you can control the size with font-size for different class(es) - below */
+	line-height: 100%;
+	width: 1em;
+	height: 1em;
+	position: relative;
+	display: block;
+	float: left;
+}
+/* Button like icons */
+.icon-square,
+.icon-rounded {
+	border: .75em solid rgb(242, 242, 242); /* #f2f2f2 */
+	background-color: rgb(242, 242, 242); /* #f2f2f2 */
+	margin: 0 .5em .5em 0;
+	/* for browsers that supports */
+	-webkit-box-shadow: 0 0 0 .0625em rgb(226, 226, 226); /* #e2e2e2 */
+	-moz-box-shadow: 0 0 0 .0625em rgb(226, 226, 226); /* #e2e2e2 */
+	box-shadow: 0 0 0 .0625em rgb(226, 226, 226); /* #e2e2e2 */
+}
+.icon-rounded {
+	border-radius: 1.5em;
+}
+/*
+ * Sizes
+ *
+ * 5 preset sizes, simply change the font-size or add your custom class.
+ *
+ */
+.icon-small {
+	font-size: 1em;
+}
+.icon-mid {
+	font-size: 2em;
+}
+.icon-large {
+	font-size: 4em;
+}
+.icon-extra-large {
+	font-size: 8em;
+}
+.icon-huge {
+	font-size: 12em;
+}
