@@ -7,6 +7,7 @@ body {
 	margin: 0;
 	color: rgb(102, 102, 102);
 }
+
 code, pre {
 	/*font-family: Monaco, Menlo, Consolas, "Courier New", monospace;*/
 	-webkit-border-radius: .2rem;
@@ -39,11 +40,15 @@ pre {
 	margin: 0;
 	font-size: .6rem;
 }
-
+header{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
 
 /* Preview */
 .wrapper {
-	width: 80%;
+	width: 95%;
 	padding: 1em 0;
 	margin: 0 auto;
 	min-width: 320px;
@@ -54,8 +59,11 @@ pre {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	text-align: center;
+	/*border: 1px solid #000;*/
 }
 .section-preview li {
+	text-align: left;
 	list-style: none;
 	position: relative;
 	border: .1em solid rgb(226, 226, 226);
@@ -72,17 +80,22 @@ pre {
 	-webkit-border-radius: .2rem;
 	-moz-border-radius: .2rem;
 	padding: 1em;
-	margin: .2em;
-	float: left;
-	min-width: 200px;
+	margin: .3125em;
+	/*float: left;*/
+	display: inline-block;
+	min-width: 250px;
 }
 .section-preview li:hover {
 	background-color: rgb(242, 242, 242);
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
 	/* Preview */
+	.section-preview li{
+		float: none;
+		display: block;
+	}
 }
 
 

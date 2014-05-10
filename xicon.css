@@ -2,11 +2,11 @@
  *	xicon by x 
  */
 
-/* Arrows */
-.xicon-arrowRight,
-.xicon-arrowLeft,
-.xicon-arrowDown,
-.xicon-arrowUp {
+/* chevron */
+.xicon-chevronRight,
+.xicon-chevronLeft,
+.xicon-chevronDown,
+.xicon-chevronUp {
 	position: absolute;
 	width: .5em;
 	height: .5em;
@@ -15,28 +15,119 @@
 	top:.125em;
 	left: .125em;
 }
-.xicon-arrowRight{
+.xicon-chevronRight{
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
-.xicon-arrowLeft{
+.xicon-chevronLeft{
 	-webkit-transform: rotate(-135deg);
 	-moz-transform: rotate(-135deg);
 	-ms-transform: rotate(-135deg);
 	-o-transform: rotate(-135deg);
 	transform: rotate(-135deg);
 }
-.xicon-arrowDown{
+.xicon-chevronDown{
 	-webkit-transform: rotate(135deg);
 	-moz-transform: rotate(135deg);
 	-ms-transform: rotate(135deg);
 	-o-transform: rotate(135deg);
 	transform: rotate(135deg);
 }
-.xicon-arrowUp{
+.xicon-chevronUp{
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+/* ok */
+.xicon-ok{
+	position: absolute;
+	width: .5em;
+	height: .25em;
+	border-left: .1875em solid rgb(102, 102, 102); /* #666 */
+	border-bottom: .1875em solid rgb(102, 102, 102); /* #666 */
+	top:.1875em;
+	left: .1875em;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);	
+}
+/* remove */
+.xicon-remove {
+	position: absolute;
+	width: .25em;
+	height: 1em;
+	left:.375em;
+	background-color: rgb(102, 102, 102); /* #666 */
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.xicon-remove:after {
+	position: absolute;	
+	content: "";
+	top:.375em;
+	left:-.375em;
+	width: 1em;
+	height: .25em;	
+	background-color: rgb(102, 102, 102); /* #666 */
+}
+
+/* sign */
+
+*[class*="xicon-sign-"]{
+	position: absolute;
+	width: 1em;
+	height: 1em;
+	background-color: rgb(102, 102, 102); /* #666 */
+	border-radius: 50%;
+}
+
+.xicon-sign-ok:after{
+	content:'';
+	position: absolute;
+	width: .4em;
+	height: .2em;
+	border-left: .125em solid rgb(255, 255, 255); /* #fff */
+	border-bottom: .125em solid rgb(255, 255, 255); /* #fff */
+	top:.25em;
+	left: .25em;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);	
+}
+
+.xicon-sign-remove:before,
+.xicon-sign-remove:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -.3125em;
+	margin-top: -0.0625em;
+	width: .625em;
+	height: .125em;
+	background-color: rgb(255, 255, 255); /* #fff */
+}
+.xicon-sign-remove:before {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.xicon-sign-remove:after {
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
