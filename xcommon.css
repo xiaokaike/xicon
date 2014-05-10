@@ -1,5 +1,5 @@
 /* Generals */
-.icon {
+.xicon {
 	/* don't change width and height in order to change the size of the icon,
 	you can control the size with font-size for different class(es) - below */
 	line-height: 100%;
@@ -8,10 +8,11 @@
 	position: relative;
 	display: block;
 	float: left;
+	/*border: 1px solid #000;*/
 }
 /* Button like icons */
-.icon-square,
-.icon-rounded {
+.xicon-square,
+.xicon-rounded {
 	border: .75em solid rgb(242, 242, 242); /* #f2f2f2 */
 	background-color: rgb(242, 242, 242); /* #f2f2f2 */
 	margin: 0 .5em .5em 0;
@@ -20,7 +21,7 @@
 	-moz-box-shadow: 0 0 0 .0625em rgb(226, 226, 226); /* #e2e2e2 */
 	box-shadow: 0 0 0 .0625em rgb(226, 226, 226); /* #e2e2e2 */
 }
-.icon-rounded {
+.xicon-rounded {
 	border-radius: 1.5em;
 }
 /*
@@ -29,18 +30,18 @@
  * 5 preset sizes, simply change the font-size or add your custom class.
  *
  */
-.icon-small {
+.xicon-small {
 	font-size: 1em;
 }
-.icon-mid {
+.xicon-mid {
 	font-size: 2em;
 }
-.icon-large {
+.xicon-large {
 	font-size: 4em;
 }
-.icon-extra-large {
+.xicon-extra-large {
 	font-size: 8em;
 }
-.icon-huge {
+.xicon-huge {
 	font-size: 12em;
 }
